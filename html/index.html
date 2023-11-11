@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Nombre en la pestaña del navegador -->
+    <title>Fósiles</title>
+    <!-- CONEXIÓN CSS7 relacion de este documento-->
+    <link rel="stylesheet" href="/style.css">
+    <!-- Conexion Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <!-- Cargando segundo set de fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+
+    
+</head>
+<body> 
+
+    <!-- caja que agrupa datos-->
+    <main>
+        <h1>Paleontología</h1>
+        <!--img src es la ruta de la imagen-->
+        <img class="img1" src="https://www.generationgenius.com/wp-content/uploads/2020/07/338-still-1-1024x576.jpg" alt="Imagen de como lucen">
+        <!-- insertar a traves de la computadora-->
+        <img src="/images/imgPaleo.png" alt="prueba 1">
+        <img src="/images/imgPaleo2.jpeg" alt="prueba 2">
+        
+        <!-- ul/ lista no ordenada-->
+        <h3>  Fósiles bonitos</h3>
+        <ul>
+            <li>¿Qué es la paleontología?</li>
+            <li>¿Para que nos sirve estudiarla?</li>
+            <li>¿Cual es su metodología de estudio?</li>
+            <li>No se que poner</li>
+        </ul>
+
+        <!-- OL - ordereed list (lista ordenada)-->
+        <h3>Tiempo Geológico</h3>
+        <ol class="segundointento">
+            <li>Precámbrico</li>
+            <li>Paleozoico</li>
+            <li>Mesozoico</li>
+            <li>Cenozoico</li>
+
+        </ol>
+
+        <div>
+
+            <!-- el gato significa que nos reedirigirá a una parte de nuestro elemento-->
+            <a href="#bio">La vida</a>
+            <a href="#huesos">Restos</a>
+            <a href="#evolucion">tiempo</a>
+        </div>
+        <!--br es break, o sea, un espacio-->
+        <br>
+        <br>
+
+        
+        <!-- id/ el nombre de nuetro elemento-->
+        <h3 id="bio"> La vida </h3> 
+
+        <!-- p // parrafo-->
+        <br>
+        <br>
+
+        <p>  La vida es un concepto difícil de definir satisfactoriamente, depende del enfoque con que se estudie; pero en general es la propiedad que distingue a la materia que tiene procesos biológicos
+        </p> 
+
+        <h3 id="huesos"> Restos </h3>
+
+        <p> 
+            Son restos orgánicos de animales y plantas que se encuentran en los estratos de las rocas sedimentarias, y sirven para datar las edades de los mismos. Esto se realiza a través de los llamados fósiles índice, llamados así porque sólo existieron en una determinada Era o Período geológico.
+        </p>
+
+        <h3 id="evolucion"> Evolución</h3>
+        <p>
+            La evolución biológica es el conjunto de cambios en caracteres fenotípicos y genéticos de poblaciones biológicas a través de generaciones.​ Dicho proceso ha originado la diversidad de formas de vida que existen sobre la Tierra a partir de un antepasado común.​​
+        </p>
+
+        <p> Haz click en la imagen derecha</p>
+
+        <!--ancla nos lleva a otro sitio web-->
+        <!-- href referencia a donde vamos (liga)-->
+        <a href="https://bongo.cat/">
+            <img class="bombo-gato" src="/images/paleontologa.jpeg" alt="">
+            
+        </a>
+
+        <!-- formularios-->
+
+        <form>
+            <!-- formulario INPUT-->
+            <p>¿Quien es el encargado de estudiar la paleontología?</p>
+            <!--etiqueta identificadora for - identificador de formulario-->
+            <label for="dif-planeta">
+                <input type="text">
+                <button>Envar</button>
+
+            </label>
+            <!-- Formulario INPUT Radio-->
+            <p>¿En qué año empezó la era de los homosapiens?</p>
+            <!-- NAME para que las respuestas se asocien al mismo formulario, en este caso "era"-->
+            <label for="Ceno">
+                <input type="radio" name="era"> Cenozoico
+            </label>
+
+            <label for="Meso">
+                <input type="radio" name="era"> Mesozoico
+            </label>
+
+            <label for="Paleo">
+                <input type="radio" name="era">Paleozoico
+            </label>
+
+
+            <!-- Formulario INPUT CHECKBOX es un recuadro-->
+            <p>¿En qué año empezó el pérdiodo de los homosapiens?</p>
+            <!-- NAME para que las respuestas se asocien al mismo formulario, en este caso "era"-->
+            <label for="Cuat">
+                <input type="checkbox" name="périodo"> Cuaternario
+            </label>
+
+            <label for="Neso">
+                <input type="checkbox" name="périodo"> Neógeno
+            </label>
+
+            <label for="Paleo">
+                <input type="checkbox" name="périodo">Paleógeno
+            </label>
+
+        </form>
+    </main>
+</body>
+</html>

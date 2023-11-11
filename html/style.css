@@ -1,0 +1,60 @@
+/*
+selector {
+    propiedad : valor ;
+    propiedad : valor ;
+}
+*/
+
+body {
+
+    /*cambiar color de fondo */
+    background-color: #f2efce ;
+
+    /* cambiar color de letra */
+    color: rgb(0, 2, 2);
+
+    font-family: 'Comfortaa', sans-serif;
+    
+    /* FONT WEIGTH sirve para el ancho o grosor de la letra*/
+    font-weight: 100;
+
+    /* FONT SIZE sirve para ver el tamaño de la letra*/
+    font-size: medium;
+
+}
+
+h1 {
+    color: rgb(147, 98, 25);
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    
+}
+
+a {
+    color: #b66c45; 
+   
+}
+
+img {
+
+    /* width: ancho del objeto // heigth: alto del objeto*/
+    width: 200px;
+}
+
+.img1 {
+    width: 200px;
+}
+.bombo-gato {
+    width: 400px;
+    /*border radius*/
+    border-radius: 25%;
+    /*sombras en las imagenes*/
+    box-shadow: 10px 20px 20px rgb(66, 66, 55);
+
+}
+
+h3 {
+
+    font-size: x-large;
+
+}
